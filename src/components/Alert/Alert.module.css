@@ -1,0 +1,40 @@
+.alert {
+  position: fixed;
+  top: 150px;
+  z-index: 1100;
+  width: clamp(350px, 50%, 500px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+
+  animation: fadeIn 3.8s forwards;
+}
+
+.alert svg {
+  font-size: 2rem;
+}
+
+.red {
+  background-color: rgb(223, 40, 40);
+}
+
+.green {
+  background-color: rgb(4, 112, 4);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}

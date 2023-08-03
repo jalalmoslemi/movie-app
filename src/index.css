@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('assets/fonts/Vazir.woff') format('woff');
+  font-display: block;
+}
+
+* {
+  font-family: 'Vazir';
+  text-align: right;
+  direction: rtl;
+  box-sizing: border-box;
+  color: white !important;
+}
+
+body {
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.bg-blue {
+  background-color: #1420c4;
+}
+.line {
+  margin: 30px 3%;
+  border-bottom: 2px solid rgb(36, 40, 42);
+}
+
+.color-blue-light {
+  color: #6f9af7 !important;
+}
+
+.modal-dialog .modal-content {
+  background-color: #220b61 !important;
+}
+
+.modal-header button {
+  margin: 0 !important;
+  color: white !important;
+}
+
+.t-color-lightblack {
+  color: rgb(120, 120, 120) !important;
+}
+
+.line-blue {
+  margin: 15px 3%;
+  border-bottom: 2px solid blue;
+}
+
+.bg-lightgreen {
+  background-color: rgba(0, 255, 255, 0.452);
+}

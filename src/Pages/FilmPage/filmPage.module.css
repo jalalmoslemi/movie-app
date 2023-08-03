@@ -1,0 +1,59 @@
+.backgroundImage {
+  width: 100%;
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  z-index: 57;
+  max-width: 450px;
+  bottom: 100px;
+  right: 20%;
+
+  background-color: rgba(0, 162, 255, 0.774);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.caption p {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 800;
+}
+
+.collection-film {
+  padding: 20px 5%;
+}
+
+.collection-film > div {
+  margin: 30px 15px;
+}
+
+.paginate {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.selectBox {
+  margin: 20px 20px;
+  padding: 20px 50px;
+  border: 2px solid rgb(175, 64, 64);
+}
+
+.selectBox select {
+  width: 200px;
+  background-color: rgb(13, 13, 68);
+  border-radius: 5px;
+  padding: 10px 8px;
+  border: 0 !important;
+}
+
+.selectBox select option {
+  width: 50px !important;
+  padding: 5px 10px !important;
+  background-color: rgb(7, 7, 85) !important;
+}

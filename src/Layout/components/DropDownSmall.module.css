@@ -1,0 +1,42 @@
+.dropdown {
+  /* width: 300px; */
+  width: 100%;
+  margin-top: 7px;
+  padding: 10px;
+  background-color: rgba(65, 63, 87, 0.719);
+  border-radius: 10px;
+  animation: fadein 0.7s linear forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dropdown li {
+  list-style: none;
+  margin-block: 5px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown li:hover {
+  background-color: rgb(0, 81, 128);
+}
+
+.dropdown li a {
+  text-decoration: none;
+}
+.dropdown li a svg {
+  margin-left: 10px;
+}
+
+.exit {
+  margin-block: 10px;
+  width: 100%;
+}

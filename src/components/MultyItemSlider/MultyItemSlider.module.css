@@ -1,0 +1,11 @@
+.container {
+  margin-inline: clamp(30px, 10%, 100px);
+}
+
+.container div > * {
+  direction: ltr !important;
+}
+
+.container div > button::before {
+  font-size: clamp(1rem, 4vw, 2rem);
+}

@@ -1,0 +1,39 @@
+.backgroundImage {
+  width: 100%;
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  z-index: 57;
+  max-width: 450px;
+  bottom: 100px;
+  right: 20%;
+
+  background-color: rgba(0, 162, 255, 0.774);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.caption p {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  font-weight: 800;
+}
+
+.collection-film {
+  padding: 20px 5%;
+}
+
+.collection-film > div {
+  margin: 30px 15px;
+}
+
+.paginate {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}

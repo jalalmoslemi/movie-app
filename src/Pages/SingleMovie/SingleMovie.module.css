@@ -1,0 +1,84 @@
+.box {
+  margin-top: 100px;
+}
+
+.single-film-title {
+  padding: 0 5%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.single-film-info > * {
+  margin: 15px;
+}
+
+.single-film-info {
+  justify-content: space-evenly;
+}
+
+.single-film-img {
+  width: 275px;
+}
+
+.single-film-img > img {
+  height: 407px;
+}
+
+.single-film-info2 {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+
+.single-film-info2 > div {
+  margin: 15px 0;
+  width: 100%;
+}
+
+@media screen and (width >= 992px) {
+  .single-film-info2 > div {
+    width: 50%;
+  }
+}
+
+.star-rating {
+  user-select: none;
+}
+
+.stars > a {
+  color: yellow !important;
+  text-decoration: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.single-genre-item {
+  background-color: rgb(23, 102, 23) !important;
+}
+
+.single-genre-item:hover {
+  background-color: rgb(27, 122, 126) !important;
+}
+
+.single-film-body ul {
+  padding: 0 5px;
+}
+
+.btn {
+  padding: 10px 15px !important;
+  margin: 10px 0 !important;
+}
+
+.active {
+  border: 2px solid red !important;
+}
+
+.btn:hover,
+.btn:checked,
+.btn:active {
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}

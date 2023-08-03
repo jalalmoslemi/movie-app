@@ -1,0 +1,26 @@
+.login {
+  background-image: url('../../assets/images/loginWallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100dvh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login::before {
+  content: '';
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.541);
+  position: absolute;
+  z-index: 1;
+}
+
+.login > * {
+  position: relative;
+  z-index: 50;
+}

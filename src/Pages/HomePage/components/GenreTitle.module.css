@@ -1,0 +1,19 @@
+.title {
+  font-size: clamp(1.7rem, 4vw, 2rem);
+  padding: 0 5%;
+  margin-top: 30px;
+}
+.red,
+.yellow,
+.blue {
+  margin: 0 5px;
+}
+.red svg path {
+  color: red !important;
+}
+.yellow svg path {
+  color: yellow !important;
+}
+.blue svg path {
+  color: #4e4eee !important;
+}

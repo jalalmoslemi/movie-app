@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  min-width: 60px;
+  list-style: none;
+  margin-inline: 10px;
+}
+
+.nav li a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: red 1px solid;
+}

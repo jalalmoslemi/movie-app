@@ -1,0 +1,31 @@
+.caption {
+  position: absolute;
+  z-index: 57;
+  max-width: 450px;
+  bottom: 100px;
+  right: 8%;
+}
+
+.title {
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.caption div {
+  margin: 0 0 8px 0;
+}
+.caption div img {
+  width: 50px;
+  height: 24px;
+}
+
+.caption div span {
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  background-color: rgb(5, 77, 5);
+  border-radius: 5px;
+  margin-right: 5px;
+}
